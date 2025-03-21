@@ -33,7 +33,7 @@ Use consistent prefixes to indicate the purpose and type of context variables:
 | `const_`  | Constants                 | `const_API_ENDPOINT` |
 | `config_` | Configuration settings    | `config_retryLimit`  |
 | `state_`  | Stateful information      | `state_processQueue` |
-| `utils_`  | Utility functions         | `utils_formatters`   |
+| `utils_`  | Utility functions         | `utils_formatters` (or just `utils` if scoping them would be overkill for a few functions)   |
 | `cache_`  | Cached data               | `cache_userProfiles` |
 
 ### Context Registry
