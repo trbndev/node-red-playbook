@@ -15,6 +15,7 @@ This playbook establishes consistent patterns and practices for developing Node-
    - Using Subflows
 5. [Version Control](docs/version-control.md)
 6. [Best Practices](docs/best-practices.md)
+7. [Color Coding](docs/color-coding.md)
 
 ## Getting Started
 
