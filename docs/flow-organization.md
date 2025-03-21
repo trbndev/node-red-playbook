@@ -23,20 +23,70 @@ Organize nodes into three distinct sections within each flow:
    - Core business logic
    - Sequential processing steps
    - Decision points
+   
+   **Naming Examples:**
+   - "[ Main Flow: Order Processing ]"
+   - "[ Main Flow: User Registration ]"
+   - "[ Main Flow: Data Ingestion ]"
+   - "[ Main Flow: Payment Verification ]"
 
 2. **Callbacks** - Terminal processing paths
    - Success handlers
    - Error handlers
    - Conditional branch endpoints
-   - Named with pattern: "On [Event] [Action]"
+   - Named with pattern: "[ On {Event}: {Action} ]"
+   
+   **Naming Examples:**
+   - "[ On Success: Send Confirmation ]"
+   - "[ On Error: Payment Failed ]"
+   - "[ On Condition: International Shipping ]"
+   - "[ On Event: Inventory Updated ]"
 
 3. **Utilities** - Supporting functions
    - Initialization nodes
    - Utility function nodes
    - Helper functions
-   - Named with pattern: "Util: [Purpose]"
+   - Named with pattern: "[ Util: {Purpose} ]"
+
+   **Naming Examples:**
+   - "[ Util: Date Formatters ]"
+   - "[ Util: API Authentication ]"
+   - "[ Util: Input Validation ]"
+   - "[ Util: Logging Functions ]"
 
 Use horizontal or vertical separation to clearly distinguish these sections, with consistent placement across all flows.
+
+## Tab Naming with Emojis
+
+Use descriptive emojis at the beginning of tab names for quick visual identification of tab purpose.
+
+### Guidelines for Emoji Usage
+
+1. **Place the emoji at the start** of the tab name for consistent visual scanning
+2. **Choose intuitive emojis** that clearly relate to the tab's function
+3. **Be consistent** across your project with emoji assignments
+4. **Limit to 1-2 emojis** per tab to avoid clutter
+5. **Consider high-contrast emojis** for better visibility
+
+### Recommended Emojis by Tab Function
+
+| Tab Function | Suggested Emoji | Example Tab Name |
+|--------------|----------------|-----------------|
+| GitHub Integration | 🔄 | 🔄 GitHub PR Management |
+| API Endpoints | 🌐 | 🌐 External API Services |
+| Authentication | 🔒 | 🔒 User Authentication |
+| Dashboard UI | 📊 | 📊 System Dashboard |
+| Database Operations | 💾 | 💾 Data Storage |
+| Email Processing | ✉️ | ✉️ Email Notifications |
+| File Operations | 📁 | 📁 File Handling |
+| IoT Devices | 🔌 | 🔌 Device Control |
+| Machine Learning | 🧠 | 🧠 ML Processing |
+| Scheduled Tasks | ⏱️ | ⏱️ Scheduled Jobs |
+| Testing | 🧪 | 🧪 Test Flows |
+| User Management | 👤 | 👤 User Operations |
+| Webhooks | 🪝 | 🪝 Incoming Webhooks |
+| Logging/Monitoring | 📝 | 📝 System Logs |
+| Configuration | ⚙️ | ⚙️ System Config |
 
 ## Using Subflows
 
@@ -61,3 +111,5 @@ Example subflows:
 - "Data Validation Pipeline"
 - "Standardized Error Handler"
 - "Audit Log Generator"
+
+
