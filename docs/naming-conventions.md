@@ -35,6 +35,7 @@ Use consistent prefixes to indicate the purpose and type of context variables:
 | `state_`  | Stateful information      | `state_processQueue` |
 | `utils_`  | Utility functions         | `utils_formatters` (or just `utils` if scoping them would be overkill for a few functions)   |
 | `cache_`  | Cached data               | `cache_userProfiles` |
+| `temp_`    | Temporary state | `temp_validationCounter` |
 
 ### Context Registry
 
